@@ -1,7 +1,0 @@
-@import "./base.css";
-@tailwind components;
-@tailwind utilities;
-
-.slick-slider .slick-dots ul li {
-  display: block;
-}

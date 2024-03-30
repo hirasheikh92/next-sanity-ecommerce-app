@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import "../../styles/globals.css";
+import './globals.css'
 import Header from "@/components/shared/header/Header";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

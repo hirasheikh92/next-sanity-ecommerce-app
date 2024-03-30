@@ -1,4 +1,7 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 @font-face {
   font-family: "Poppins";
@@ -6,5 +9,11 @@
   font-weight: 500 900;
   font-stretch: 75% 125%;
   font-display: swap;
-  src: url("../fonts/Poppins.woff2");
+  src: url("../../fonts/poppins.woff2");
+}
+
+
+
+.slick-slider .slick-dots ul li {
+  display: block;
 }
