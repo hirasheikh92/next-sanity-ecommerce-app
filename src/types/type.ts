@@ -43,3 +43,9 @@ export interface ProductProps{
     _updatedAt: string;
 
 }
+
+export interface StateProps{
+    eshop:{
+        productData:ProductProps[]
+    }
+}

@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-
-import './globals.css'
 import Header from "@/components/shared/header/Header";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PageButton from "@/components/ui/PageButton";
 import Footer from "@/components/shared/Footer";
-
+import '../../styles/globals.css'
+import ProviderLayout from "@/components/ui/ProviderLayout";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,10 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-display">
+        <ProviderLayout>
         <Header />
         <PageButton/>
         {children}
         <Footer/>
+        </ProviderLayout>
       </body>
     </html>
   );
